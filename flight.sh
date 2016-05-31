@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "FLIGHT DETECTOR ALL SET TO RUN. HERE WE GO"
+echo "FLIGHT DETECTOR STARTED. HERE WE GO"
 /home/Project/./script.sh
 
