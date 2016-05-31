@@ -3,8 +3,8 @@
 # /rtlsdr/dump1090/./dump1090 --raw >log.txt
 while  true; do
 echo "System initiating"
-# raw for log file , interactive for terminal display , help for more options
-/rtlsdr/dump1090/./dump1090 --raw >log.txt &
+# net for log file , interactive for terminal display , help for more options
+/rtlsdr/dump1090/./dump1090 --net >log.txt &
 echo "RTL SDR is up and looking for flights"
 for i in `seq 1 15`; do
 	sleep 1
